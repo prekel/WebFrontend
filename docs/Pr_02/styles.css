@@ -7,23 +7,49 @@ p {
 
 body {
     background: url("background.png");
+    margin: 100px 100px 100px 100px;
+}
+
+header {
+    background-color: aqua;
+    margin: 5px 40px 15px 10px;
+}
+
+div {
+    background-color: paleturquoise;
+    margin: 5px 40px 15px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer {
+    background-color: lightblue;
+    margin: 5px 40px 15px 10px;
 }
 
 hr {
     color: green;
 }
 
-h1
-{
+h1 {
     font-size: 40px;
 }
 
-h2
-{
+h2 {
     font-size: 30px;
+    color: brown;
 }
 
-h3
-{
+h3 {
     font-size: 25px;
+}
+
+img#plot {
+    height: 500px;
+    width: 500px border-box;
+}
+
+ol {
+    font-weight: normal;
+    text-decoration: none;
 }
