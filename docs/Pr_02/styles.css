@@ -1,7 +1,7 @@
 p {
     text-align: justify;
     text-indent: 30px;
-    font-family: Serif;
+    font-family: serif;
     font-size: 14px;
 }
 
@@ -15,13 +15,6 @@ header {
     margin: 5px 40px 15px 10px;
 }
 
-div {
-    background-color: paleturquoise;
-    margin: 5px 40px 15px 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 footer {
     background-color: lightblue;
     margin: 5px 40px 15px 10px;
@@ -29,6 +22,10 @@ footer {
 
 hr {
     color: green;
+}
+
+hr.definitions {
+    color: blue;
 }
 
 h1 {
@@ -49,7 +46,37 @@ img#plot {
     width: 500px border-box;
 }
 
+article.definitions {
+    background-color: paleturquoise;
+    margin: 5px 40px 15px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+}
+
+article.references {
+    background-color: lightblue;
+    margin: 5px 40px 15px 10px;
+    padding-bottom: 10px;
+}
+
 ol {
     font-weight: normal;
     text-decoration: none;
+}
+
+p.picture-description {
+    text-align: left;
+    text-indent: 1cm;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+
+section#link-to-sources {
+    background-color: powderblue;
+    margin: 5px 40px 15px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }

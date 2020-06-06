@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1aa8fdf-2b28-4966-9187-6977ddd93d6f" name="Default Changelist" comment="css">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/vladislav.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
@@ -58,7 +57,6 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -79,6 +77,10 @@
       <workItem from="1589781513919" duration="13040000" />
       <workItem from="1589960035256" duration="2697000" />
       <workItem from="1590070368597" duration="7813000" />
+      <workItem from="1590484769143" duration="4337000" />
+      <workItem from="1590560281806" duration="2596000" />
+      <workItem from="1590716393052" duration="2552000" />
+      <workItem from="1591168190448" duration="2142000" />
     </task>
     <task id="LOCAL-00001" summary="wadadw">
       <created>1589795462251</created>
