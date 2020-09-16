@@ -1,0 +1,118 @@
+p {
+    text-align: justify;
+    text-indent: 30px;
+    font-family: serif;
+    font-size: 14px;
+}
+
+body {
+    background: url("background.png");
+    margin: 100px 100px 100px 100px;
+}
+
+header {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    width: 800px;
+    height: 75px;
+    background-color: aqua;
+}
+
+footer {
+    background-color: lightblue;
+}
+
+hr {
+    color: green;
+}
+
+hr.definitions {
+    color: blue;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    color: brown;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+img#plot_picture {
+    position: relative;
+    left: 25px;
+    height: 500px;
+    width: 500px border-box;
+}
+
+article.definitions {
+    background-color: paleturquoise;
+    /*margin: 5px 40px 15px 10px;*/
+    /*//#padding-left: 10px;*/
+    /*//#padding-right: 10px;*/
+    /*#padding-bottom: 1px;*/
+}
+
+article.references {
+    background-color: lightblue;
+    margin: 5px 40px 15px 10px;
+    padding-bottom: 10px;
+}
+
+ol {
+    font-weight: normal;
+    text-decoration: none;
+}
+
+p.picture-description {
+    text-align: left;
+    text-indent: 1cm;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+
+section#link-to-sources {
+    background-color: powderblue;
+    margin: 5px 40px 15px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+#monomial {
+    float: left;
+    width: calc(100% / 3);
+}
+
+#polynomial {
+    float: left;
+    width: calc(100% / 3);
+}
+
+#equation {
+    float: left;
+    width: calc(100% / 3);
+}
+
+#plot {
+    clear: both;
+}
+
+#content {
+    overflow: hidden;
+}
+
+#to_top
+{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: brown;
+}
