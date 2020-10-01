@@ -14,15 +14,58 @@
 <body>
 <div class="container">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <header id="header" class="navbar-brand">
-            Многочлены и алгебраические уравнения
-        </header>
+        <a class="navbar-brand" href="index.html">Многочлены и алгебраические уравнения</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="form.html">Форма ввода</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 </div>
 
-<form>
-    
-</form>
+<article class="panel panel-primary container">
+    <header class="panel-body col-md-6">
+        <form class="form">
+            <form class="form-group">
+                <label for="email">Адрес электронной почты</label>
+                <input type="email" class="form-control" id="email" placeholder="misterptits@yandex.ru">
+            </form>
+            <form class="form-group">
+                <label for="number">Мобильный телефон</label>
+                <input type="tel" class="form-control" id="number" placeholder="+7 923 280 9414">
+            </form>
+            <form class="form-group">
+                <label for="date">Дата для связи</label>
+                <input type="date" class="form-control" id="date" placeholder="03/12/1999">
+            </form>
+            <form class="form-group"> 
+                Пол обращающегося:&nbsp; 
+                <br>
+                <div class="form-check-inline"> 
+                    <label class="form-check-lable"> 
+                        <input type="radio" class="form-check-input" name="gender"> Мужской 
+                    </label> 
+                </div> 
+                <div class="form-check-inline"> 
+                    <label class="form-check-lable"> 
+                        <input type="radio" class="form-check-input" name="gender"> Женский
+                    </label> 
+                </div> 
+                <div class="form-check-inline"> 
+                    <label class="form-check-lable"> 
+                        <input type="radio" class="form-check-input" name="gender"> Неважно
+                    </label> 
+                </div> 
+            </form>
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-success">Отправить</button>
+                <button type="button" class="btn btn-danger">Не отправлять</button>
+            </div>
+        </form>
+    </header>
+</article>
 
 <section id="to_top" class="fixed-bottom">
     <a href="#header">Наверх</a>
