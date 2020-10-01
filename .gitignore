@@ -215,6 +215,4 @@ modules.xml
 # End of https://www.toptal.com/developers/gitignore/api/node,visualstudiocode,webstorm+all
 
 
-
-
-Pr_04/fontawesome-free-5.15.0-web
+/Pr_04/fontawesome-free-5.15.0-web/svgs/
