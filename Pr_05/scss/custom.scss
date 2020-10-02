@@ -1,0 +1,8 @@
+$theme-colors: ("primary": blue, "danger": #1f4136);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.jumbotron {
+  background-color: #ffafaf !important;
+  border-top: 3px solid rgb(219, 219, 219);
+}
