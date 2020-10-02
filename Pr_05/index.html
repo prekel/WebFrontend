@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index,all">
+    <meta name="author" content="Vladislav Prekel">
+    <meta name="keywords" content="многочлен, полином, уравнение, алгебраический">
+    <meta name="description"
+        content="Многочлены и алгебраические уравнения. Численное решение алгебраических уравнений.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    
+
+    <title>Многочлены и алгебраические уравнения</title>
+    <link type="text/css" href="styles.css" rel="stylesheet">
+</head>
+
+<body id="body">
+    <a class="fixed-bottom btn-primary" id="to_top" href="#">Наверх</a>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="index.html">Многочлены и алгебраические уравнения</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="form.html">Форма ввода</a></li>
+                </ul>
+            </div>
+        </nav>
+        <header class="jumbotron">
+            <div class="row">
+                <article class="definitions col-lg-4 col-md-8 col-xs" id="monomial">
+                    <h2>Одночлен</h2>
+                    <p>Одночлен (или моном) — простое математическое выражение, прежде всего рассматриваемое и
+                        используемое в элементарной алгебре, а именно, произведение, состоящее из числового множителя и
+                        одной или нескольких переменных, взятых каждая в неотрицательной целой степени.</p>
+                </article>
+                <article class="definitions col-lg-4 col-md-4 col-xs" id="polynomial">
+                    <h2>Многочлен</h2>
+                    <p>Многочлен (или полином) — это сумма одночленов.</p>
+                </article>
+                <article class="definition col-lg-4 col-lg-4 col-xs" id="equation">
+                    <h2>Алгебраическое уравнение</h2>
+                    <p>Алгебраическое уравнение (полиномиальное уравнение, многочленное уравнение) — уравнение вида
+                        P(x1,x2,...) где P — многочлен от переменных x1, ..., xn — которые называются неизвестными.</p>
+                </article>
+            </div>
+        </header>
+        <section class="row">
+            <article class="definitions col-lg-6" id="plot">
+                <div class="card mb-4 card-body text-center">
+                    <img id="plot_picture" src="plot.png" alt="График алгебраического уравнения">
+                    <p class="picture-description">График алгебраического уравнения
+                        <span class="math">x<sup>3</sup>-2x<sup>2</sup>-x+2</span>
+                    </p>
+                </div>
+            </article>
+            <article class="references col col-lg-6">
+                <div class="card mb-4 card-body">
+                    <table class="table table-bordered">
+                        <caption><span class="math">y = x<sup>3</sup>-2x<sup>2</sup>-x+2</span></caption>
+                        <tr>
+                            <th scope="row">x</td>
+                            <td>-3</td>
+                            <td>-2</td>
+                            <td>-1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">y</td>
+                            <td>-40</td>
+                            <td>-12</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>8</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="card mb-4 card-body">
+                    <h3 class="sources-header" id="list-sources">Ссылки:</h3>
+                    <ol>
+                        <li><a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D1%87%D0%BB%D0%B5%D0%BD"
+                                target="_blank">Многочлен — Википедия</a></li>
+                        <li><a href="https://www.mathsisfun.com/algebra/polynomials.html">Polynomials — Math is
+                                Fun</a>
+                        </li>
+                        <li><a href="https://byjus.com/maths/polynomial-equations/">Polynomial Equations -
+                                Definition,
+                                Functions, Types and Examples</a></li>
+                    </ol>
+                </div>
+                <footer class="card mb-4 card-body">
+                    <p>
+                        <time datetime="2020-10-01 23:26">1 октября 2020.</time>
+                        Владислав Прекель.
+                    </p>
+                </footer>
+            </article>
+        </section>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
