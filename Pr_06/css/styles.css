@@ -1,0 +1,21 @@
+
+img#plot_picture {
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#to_top {
+    width: 10vw;
+    min-width: 70px;
+    max-width: 100px;
+}
+
+.math {
+    font-family: 'Cambria Math', sans-serif
+}
+
+body {
+    background: url("../assets/background.png");
+}
