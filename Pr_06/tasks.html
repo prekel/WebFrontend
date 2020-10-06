@@ -21,16 +21,14 @@
 </head>
 
 <body id="body">
-    <script src="./public/js/funcs.js" type="module"></script>
-
     <a class="fixed-bottom btn-primary" id="to_top" href="#">Наверх</a>
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <a class="navbar-brand" href="index.html">Многочлены и алгебраические уравнения</a>
-            <button class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="tasks.html">Задачи</a></li>
                     <li class="nav-item"><a class="nav-link" href="form.html">Форма ввода</a></li>
@@ -70,6 +68,8 @@
             <p id="answer">NaN</p>
         </div>
     </div>
+    <script src="./public/js/funcs.js" type="module"></script>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
