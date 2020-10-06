@@ -10,7 +10,7 @@
         content="Многочлены и алгебраические уравнения. Численное решение алгебраических уравнений.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link type="image/x-icon" href="assets/favicon.ico" rel="icon">
 
     <script src="https://kit.fontawesome.com/e8a7538d16.js" crossorigin="anonymous"></script>
 
@@ -21,11 +21,13 @@
 </head>
 
 <body id="body">
+    <script src="./public/js/funcs.js" type="module"></script>
+
     <a class="fixed-bottom btn-primary" id="to_top" href="#">Наверх</a>
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <a class="navbar-brand" href="index.html">Многочлены и алгебраические уравнения</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <button class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse">
@@ -38,10 +40,30 @@
         <div class="card card-body mb-4">
             <h1>Задачи для 6 практической</h1>
             <div class="panel-body container">
-                
+                <form class="form-group">
+                    <label>1. Найти сумму элементов последовательности.</label>
+                    <input class="form-control" name="task1Input" type="text"> <br>
+                    <input class="btn btn-success" type="button" value="Click"
+                        onClick="task1(this.form.task1Input.value)">
+                </form>
+                <form class="form-group">
+                    <label>8. Сколько соответствующих элементов двух последовательностей с одинаковым количеством
+                        элементов совпадают?</label>
+                    <input class="form-control" name="task8Input1" type="text"> <br>
+                    <input class="form-control" name="task8Input2" type="text"> <br>
+                    <input class="btn btn-success" type="button" value="Click"
+                        onClick="task8(this.form.task8Input1.value, this.form.task8Input2.value)">
+                </form>
+                <form class="form-group">
+                    <label>26. Найти разность максимального и минимального элементов последовательности.</label>
+                    <input class="form-control" name="task26Input" type="text"> <br>
+                    <input class="btn btn-success" type="button" value="Click"
+                        onClick="task26(this.form.task26Input.value)">
+                </form>
             </div>
         </div>
     </div>
 </body>
+
 
 </html>
