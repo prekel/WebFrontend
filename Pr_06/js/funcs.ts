@@ -1,15 +1,24 @@
 import * as tasks from "./tasks.js";
 
 function task1(x: string) {
-    document.write("<h1>" + tasks.arraySum(x.split(" ").map(n => parseInt(n))) + "</h1>");
+    let a = document.getElementById("answer");
+    if (a != null) {
+        a.innerHTML = tasks.arraySum(x.split(" ").map(n => parseInt(n))).toString();
+    }
 }
 
 function task8(x: string, y: string) {
-    document.write("<h1>" + tasks.zipEqualCount(x.split(" ").map(n => parseInt(n)), y.split(" ").map(n => parseInt(n))) + "</h1>");
+    let a = document.getElementById("answer");
+    if (a != null) {
+        a.innerHTML = tasks.zipEqualCount(x.split(" ").map(n => parseInt(n)), y.split(" ").map(n => parseInt(n))).toString();
+    }
 }
 
 function task26(x: string) {
-    document.write("<h1>" + tasks.MinMax.differenceMaxMin(x.split(" ").map(n => parseInt(n))) + "</h1>");
+    let a = document.getElementById("answer");
+    if (a != null) {
+        a.innerHTML = tasks.MinMax.differenceMaxMin(x.split(" ").map(n => parseInt(n))).toString();
+    }
 }
 
 declare global {

@@ -7,7 +7,7 @@ export function zipEqualCount(a, b) {
         return { a: elementA, b: elementB };
     }).reduce((count, value) => count + (value.a == value.b ? 1 : 0), 0);
 }
-// 26. Найти разность максимального и минимальногоэлементов последовательности.
+// 26. Найти разность максимального и минимального элементов последовательности.
 export class MinMax {
     constructor(min = Number.MAX_VALUE, max = Number.MIN_VALUE) {
         this.min = min;

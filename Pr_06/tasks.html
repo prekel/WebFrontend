@@ -37,31 +37,40 @@
                 </ul>
             </div>
         </nav>
-        <div class="card card-body mb-4">
+        <header class="jumbotron">
             <h1>Задачи для 6 практической</h1>
-            <div class="panel-body container">
-                <form class="form-group">
-                    <label>1. Найти сумму элементов последовательности.</label>
-                    <input class="form-control" name="task1Input" type="text"> <br>
-                    <input class="btn btn-success" type="button" value="Click"
-                        onClick="task1(this.form.task1Input.value)">
-                </form>
-                <form class="form-group">
-                    <label>8. Сколько соответствующих элементов двух последовательностей с одинаковым количеством
-                        элементов совпадают?</label>
-                    <input class="form-control" name="task8Input1" type="text"> <br>
-                    <input class="form-control" name="task8Input2" type="text"> <br>
-                    <input class="btn btn-success" type="button" value="Click"
-                        onClick="task8(this.form.task8Input1.value, this.form.task8Input2.value)">
-                </form>
-                <form class="form-group">
-                    <label>26. Найти разность максимального и минимального элементов последовательности.</label>
-                    <input class="form-control" name="task26Input" type="text"> <br>
-                    <input class="btn btn-success" type="button" value="Click"
-                        onClick="task26(this.form.task26Input.value)">
-                </form>
-            </div>
+        </header>
+        <div class="card card-body mb-4">
+            <form class="form-group">
+                <label>1. Найти сумму элементов последовательности.</label>
+                <input class="form-control" name="task1Input" type="text"> <br>
+                <input class="btn btn-success" type="button" value="Click" onClick="task1(this.form.task1Input.value)">
+            </form>
         </div>
+        <div class="card card-body mb-4">
+            <form class="form-group">
+                <label>8. Сколько соответствующих элементов двух последовательностей с одинаковым количеством
+                    элементов совпадают?</label>
+                <input class="form-control" name="task8Input1" type="text"> <br>
+                <input class="form-control" name="task8Input2" type="text"> <br>
+                <input class="btn btn-success" type="button" value="Click"
+                    onClick="task8(this.form.task8Input1.value, this.form.task8Input2.value)">
+            </form>
+        </div>
+        <div class="card card-body mb-4">
+            <form class="form-group">
+                <label>26. Найти разность максимального и минимального элементов последовательности.</label>
+                <input class="form-control" name="task26Input" type="text"> <br>
+                <input class="btn btn-success" type="button" value="Click"
+                    onClick="task26(this.form.task26Input.value)">
+            </form>
+        </div>
+        <div class="card card-body mb-4">
+            <h2>Ответ: </h2>
+            <p id="answer">23</p>
+        </div>
+    </div>
+    </div>
     </div>
 </body>
 
