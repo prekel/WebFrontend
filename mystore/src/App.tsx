@@ -1,25 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { Navbar } from "./components/Navbar";
+import { ProductCard } from "./components/ProductCard";
+import { Cart } from "./components/Cart";
 
-type AppProps = { message: string };
-
-const App = ({ message }: AppProps) =>
-  <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React {message}
-        </a>
-    </header>
-  </div>
+const App: React.FunctionComponent<{ message: string }> = ({ message }) => {
+  const [count, setCount] = useState(0);
+  return (
+    <>
+      <Navbar />
+      <div className="constainer">
+        <Cart count={count}></Cart>
+        <ProductCard
+          msg="sdad1"
+          onClick={() => setCount(count + 1)}
+        ></ProductCard>
+      </div>
+    </>
+  );
+};
 
 export default App;
